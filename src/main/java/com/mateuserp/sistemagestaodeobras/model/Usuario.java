@@ -21,10 +21,7 @@ public class Usuario {
     private Long id;
 
     @NotEmpty
-    private String nome;
-
-    @NotEmpty
-    private String email;
+    private String usuario;
 
     @NotEmpty
     private String senha;
