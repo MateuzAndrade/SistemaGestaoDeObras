@@ -1,13 +1,12 @@
 package com.mateuserp.sistemagestaodeobras.repository;
 
-import org.apache.logging.log4j.util.BiConsumer;
+import java.math.BigDecimal;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
-import java.math.BigDecimal;
 
 import com.mateuserp.sistemagestaodeobras.model.Custo;
 import com.mateuserp.sistemagestaodeobras.model.Obra;
